@@ -18,7 +18,7 @@ class Main2Activity : AppCompatActivity() {
     }
 
     private fun setOnClick(onClick: MyOnClickListener) {
-
+        onClick.onClick()
     }
 
     interface MyOnClickListener {
